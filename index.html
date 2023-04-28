@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="script.js"></script> 
+    </head>
+    <body>
+        <div class="container">
+           <ul class="circles">   
+           
+                <header class="encabezado">
+                    <h1 id="bienvenida">Hola, te doy la bienvenida al <br> Encriptador de Texto Alura.</h1>
+                
+                </header>
+            <li></li>
+            <li></li>
+            <li></li>
+                <main>
+                    <div class="left">
+                        <textarea class="text-input" type="text" id="inputtext" name="out_input-texto" placeholder="Ingresa el texto que desea encriptar o desencriptar"></textarea>
+                    </div>
+                    <div class="buttons">
+                    
+                        <button type="button" id="btn_enc" onclick="encriptar()">Encriptar</button>
+                        <button type="button" id="btn_des" onclick="desencriptar()">Desencriptar</button>
+                        <button type="button" id="copiar" onclick="copiar()">¡Copiar!</button>
+                        <button type="button" id="borrar" onclick="borrar()">¡Borrar!</button>
+                    </div>
+                </main>
+                <div class="right">
+                  <textarea readonly class="text-input-right" type="text" id="texto2" name="input-texto"></textarea>
+                    </div>   
+                </div>
+
+            </ul>   
+        </div>
+    </body>
+
+</html>
